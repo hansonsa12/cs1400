@@ -54,6 +54,11 @@ public class LabActivity01 extends Application {
 	    Point e = new Point(350,210);
 	    Rosette t = new Rosette(e, 200, 15);
 	    t.draw(gc);
+	    
+	//Draw a Borderless Rosette
+	    Point f = new Point(500,500);
+	    BorderlessRosette br = new BorderlessRosette(f, 50, 5);
+	    br.draw(gc);
    
 
   }
